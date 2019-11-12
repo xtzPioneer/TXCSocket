@@ -9,10 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** 错误代码 */
-typedef NS_ENUM(NSInteger,TXCSocketErrorCode) {
+/** 连接失败错误代码 */
+typedef NS_ENUM(NSInteger,TXCSocketConnectionFailureErrorCode) {
     /** IP或Port错误 */
-    TXCSocketErrorCodeIPOrPortError = -1000,
+    TXCSocketConnectionFailureErrorCodeIPOrPortError = -1000,
 };
 
 /** 连接成功回调 */

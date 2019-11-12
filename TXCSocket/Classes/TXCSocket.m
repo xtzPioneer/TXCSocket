@@ -61,7 +61,7 @@
         [self.aSocket connectToHost:self.ip onPort:self.port withTimeout:self.connectionTimeout error:&error];
     }else {
         NSString *message = @"IP或Port错误!";
-        error = [NSError errorWithDomain:NSCocoaErrorDomain code:TXCSocketErrorCodeIPOrPortError userInfo:@{@"message":message}];
+        error = [NSError errorWithDomain:@"ConnectionFailure" code:TXCSocketConnectionFailureErrorCodeIPOrPortError userInfo:@{@"message":message}];
         if (self.connectionFailureHandler) self.connectionFailureHandler(error);
     }
 }
