@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TXCSocket_Example' do
+  pod 'TXCSocket', :path => '../'
+
+  target 'TXCSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
