@@ -27,6 +27,22 @@ pod 'TXCSocket'
 
 ## 使用姿势
 ```objc
+// 构建客户端Socket
+self.socket= [TXCSocket socket];
+// 设置IP
+self.socket.ip = @"192.168.2.14";
+// 设置端口
+self.socket.port = 3991;
+// 连接成功回调
+self.socket.connectionSuccessHandler = ^(NSString * _Nonnull ip, uint16_t port) {
+    NSLog(@"连接成功");
+};
+// 连接失败回调
+self.socket.connectionFailureHandler = ^(NSError * _Nonnull error) {
+    NSLog(@"连接失败");
+};
+// 连接
+[self.socket connection];
 ```
 
 ## 作者
