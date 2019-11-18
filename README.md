@@ -35,4 +35,4 @@ pod 'TXCSocket'
 
 ## 许可
 
-TXCSocket is available under the MIT license. See the LICENSE file for more info.
+TXCSocket在MIT许可下可用。有关更多信息，请参见LICENSE文件。
