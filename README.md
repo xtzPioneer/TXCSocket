@@ -26,6 +26,15 @@ pod 'TXCSocket'
 ```
 
 ## 使用姿势
+
+### 导入文件
+
+```objc
+#import "TXCSocket.h"
+```
+
+### 使用示例
+
 ```objc
 // 构建客户端Socket
 self.socket= [TXCSocket socket];
