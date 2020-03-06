@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXCSocket'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于‘CocoaAsyncSocket’所开发的客户端Socket.'
   s.description      = <<-DESC
   由TX所开发的基于‘CocoaAsyncSocket’所开发的客户端Socket.
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.source_files = 'TXCSocket/Classes/**/*{h,m}'
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
-  s.dependency 'CocoaAsyncSocket','7.6.3'
+  s.dependency 'CocoaAsyncSocket'
 end

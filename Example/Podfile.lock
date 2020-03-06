@@ -1,13 +1,13 @@
 PODS:
-  - CocoaAsyncSocket (7.6.3)
-  - TXCSocket (0.1.0):
-    - CocoaAsyncSocket (= 7.6.3)
+  - CocoaAsyncSocket (7.6.4)
+  - TXCSocket (0.1.1):
+    - CocoaAsyncSocket
 
 DEPENDENCIES:
   - TXCSocket (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - CocoaAsyncSocket
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  TXCSocket: 0a0b6b0265c0649b79ee6d8c7ae50e34be902db6
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  TXCSocket: 6b9e834113e3625654bde5b45dae973ea7c1451d
 
-PODFILE CHECKSUM: 8362abf5242d7641f9d053a15882871498e6316a
+PODFILE CHECKSUM: 4ec98b5343418cf87d0a33bb7e11a6cfc14c1787
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.0
